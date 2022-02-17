@@ -528,7 +528,7 @@ body.light-theme {
 
 .services__card {
 	background-color: var(--container-color);
-	padding: 3rem 1.5rem 1.5rem;
+	padding: 2rem 1.5rem 1.5rem;
 	border-radius: 1rem;
 }
 
@@ -945,6 +945,9 @@ body.light-theme {
 		grid-template-columns: repeat(2, 160px);
 		justify-content: center;
 	}
+	.services__card {
+		padding: 2rem 2rem 1.5rem;
+	}
 	.services__modal-content {
 		width: 500px;
 		padding: 4.5rem 2.5rem 2.5rem;
@@ -979,6 +982,10 @@ body.light-theme {
 		grid-template-columns: repeat(2, max-content);
 		justify-content: center;
 		column-gap: 3rem;
+	}
+
+	.services__card {
+		padding: 2rem 2rem 1.5rem;
 	}
 }
 
@@ -1051,7 +1058,7 @@ body.light-theme {
 		column-gap: 3rem;
 	}
 	.services__card {
-		padding: 5rem 2rem 1.5rem;
+		padding: 2rem 2rem 1.5rem;
 	}
 
 	.work__container {
